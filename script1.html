@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	answer:<p id="demo"></p>
+<input type="text" id="num" value="">
+<select id="drop">
+
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+</select>
+<button onclick="test1()">go</button>
+<script type="text/javascript">
+function test1(){
+	var a = document.getElementById("num").value;
+	var b = document.getElementById("drop").value;
+
+
+
+document.getElementById("demo").innerHTML = a+b; 
+}
+</script>
+</body>
+</html>

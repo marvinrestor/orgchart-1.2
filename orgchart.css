@@ -1,0 +1,225 @@
+*{
+
+	margin: 0 auto;
+	padding:0;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+p{
+
+	position: relative;
+	top:20px;
+	left:10px;
+	 float: left;
+}
+img{
+position: relative;
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding-right: 10px;
+}
+.chart_box{
+border: 1px solid #7FB3D5;
+width: 250px;
+ height: 80px;
+ padding: 10px;
+ background-color: #EAEDED;
+ border-radius: 10px;
+}
+
+.name{
+
+
+}
+.job_description{
+padding-top: 5px;
+font-size: 13px;
+}
+
+#tricia_div{
+
+	position: relative;
+	top: 20px;
+	right: 200px;
+}
+#shane_div{
+
+	position: relative;
+	top:-82px;
+	left: 120px;
+}
+.vertical_line{
+ width: 1px;
+    height: 300px;
+    background-color: #7FB3D5;
+    position: relative;
+    }
+    #line1{
+
+    top: 70px;
+    left: 0px;
+    height: 80px;
+
+    transform: rotate(120deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(120deg);
+}
+#cliff_div{
+position: relative;
+top: -4px;
+right: 200px;
+
+}
+#tito_div{
+position: relative;
+top: -106px;
+left: 120px;
+
+}
+.horizontal_line1{
+
+	width: 320px;
+    height: 1px;
+    background-color: #7FB3D5;
+    position: relative;
+}
+#hr_line1{
+
+    bottom: 28px;
+   right: 40px;
+    height: 1px;
+
+    transform: rotate(120deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(120deg);
+
+}
+#line2{
+	position: relative;
+	bottom:50px;
+ height:50px;
+ }
+ #Baron_div{
+
+ 	position: relative;
+top: 22px;
+right: 45px;
+ }
+ #line3{
+	position: relative;
+	bottom:-70px;
+	left: 4px;
+ height:40px;
+ }
+ #hr_line3{
+
+ 	position: relative;
+ 	top:60px;
+ 	right: 30px;
+ 	width: 950px;
+ }
+  #supervisors{
+width:1300px;
+    box-sizing: border-box;
+ 
+  	height: auto;
+position: relative;
+top: 80px;
+
+ }
+ #line4, #line5, #line6, #line7 {
+
+height: 22px;
+ }
+ #line4{
+
+ 	position: relative;
+ 	right: 475px;
+ }
+  #line5{
+
+ 	position: relative;
+ 	right: 150px;
+ 	bottom: 22px;
+ }
+  #line6{
+
+ 	position: relative;
+ 	left: 150px;
+ 	bottom: 44px;
+ }
+  #line7{
+
+ 	position: relative;
+ 	left: 475px;
+ 	bottom: 66px;
+ }
+ #mary_div, #Vacant_div, #Ross_div, #shaly_div{
+ 	float: left;
+
+margin-left: 3%;
+ }
+ .fte_box{
+width: 250px;
+ 	position: relative;
+ 	top: 91px;
+ 	right: 486px;
+ padding: 0;
+     margin-left:0 auto;
+    margin-right:0 auto;
+    box-sizing: border-box;
+ }
+
+#fte1_div{
+float: left;
+	position: relative;
+	margin-bottom: 10px;
+}
+.fte_class_div p{
+text-align: center;
+	position: relative;
+width: 100%;
+}
+#fte2_div{
+	float: left;
+		position: relative;
+}
+.fte_box2{
+
+	width: 250px;
+ 	position: relative;
+ 	bottom: 123px;
+ 	right: 175px;
+   padding: 0;
+     margin-left:0 auto;
+    margin-right:0 auto;
+    box-sizing: border-box;
+}
+.fte_box3{
+width: 250px;
+ 	position: relative;
+ 	left: 311px;
+  bottom:214px;
+
+}
+
+#layer1{
+
+    background:#FDFEFE;
+    height:1000px;
+    padding: 0;
+     margin-left:0 auto;
+    margin-right:0 auto;
+    width:1300px;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 50px 20px #D5DBDB;
+}
+/*on hover*/
+.chart_box:hover{
+border: 1px solid #1A5276;
+width: 250px;
+ height: 80px;
+ padding: 10px;
+ background-color:#D5DBDB;
+ border-radius: 10px;
+}
